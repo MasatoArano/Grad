@@ -6,11 +6,12 @@ main.pyはすべてのプログラムを順番に実行します。
 
 ＜その他を個々に実行する場合＞
 hopfion.pyはQ=0の方程式を解くだけです。
-torus knotの型(n,m)を指定してください。
+  torus knotの型(n,m)を指定してください。
 
 plot.pyはplotをするだけです。
-初めにplotさせるファイルを指定してください。
+  初めにplotさせるファイルを指定してください。
   *csvファイルなどを指定する場合は(.csv)まで記述してください。
 
 rescale.pyはprofile functionを作用させています。
-profile functionは28行目.30行目の部分です。適宜変更してみてください。
+  profile functionは28行目.30行目の部分です。適宜変更してみてください。
+  plotと同様にrescaleするファイルを指定してください。
