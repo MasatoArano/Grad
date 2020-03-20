@@ -99,6 +99,6 @@ if __name__ == '__main__':
 
     select_torusknot()
     file_name = gamma + '_' + delta + '_tk.csv'
-    Im_func, Re_func = ansatz.MakeAnsatz(gamma, delta)
+    Im_func, Re_func = MakeAnsatz(gamma, delta)
     plt_data = solve(Im_func, Re_func)
     output(plt_data[3], file_name)
